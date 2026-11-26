@@ -11,8 +11,12 @@ export function normalizarMinMax(valores) {
       valores.some((valor) => typeof valor !== "number" || !Number.isFinite(valor))) {
     throw new TypeError("Informe um array não vazio de números finitos.");
   }
-  const minimo = Math.min(...valores);
-  const maximo = Math.max(...valores);
+  let minimo = Infinity;
+  let maximo = -Infinity;
+  for (const valor of valores) {
+    if (valor < minimo) minimo = valor;
+    if (valor > maximo) maximo = valor;
+  }
   if (minimo === maximo) return valores.map(() => 0);
   return valores.map((valor) => (valor - minimo) / (maximo - minimo));
 }

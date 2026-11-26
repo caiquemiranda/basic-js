@@ -36,8 +36,8 @@ console.log(visitas.get("Ana")); // 2
 
 ## Strings, números, datas e expressão regular
 
-Strings são imutáveis. `trim`, `slice`, `includes` e `replace` retornam novos valores. `Intl.NumberFormat("pt-BR")` formata números para exibição, sem mudar o valor numérico. `Date` representa um instante; datas e fusos merecem cuidado. Para registros e APIs, prefira ISO 8601, por exemplo `2026-11-25T12:00:00Z`. Uma expressão regular simples como `/\\s+/u` reconhece espaços; não use regex como substituto para um parser complexo.
+Strings são imutáveis. `trim`, `slice`, `includes` e `replace` retornam novos valores. `Intl.NumberFormat("pt-BR")` formata números para exibição, sem mudar o valor numérico. `Date` representa um instante; datas e fusos merecem cuidado. Para registros e APIs, prefira ISO 8601, por exemplo `2026-11-25T12:00:00Z`. Uma expressão regular simples como `/\s+/u` reconhece espaços; não use regex como substituto para um parser complexo.
 
 ## Experimente
 
-Execute [04-colecoes.js](../examples/04-colecoes.js). Faça uma versão sem mutação de uma lista de notas. Adicione um nome repetido ao `Set` e observe seu tamanho.
+Execute [04-colecoes.js](../examples/04-colecoes.js) e [08-texto-datas.js](../examples/08-texto-datas.js). Faça uma versão sem mutação de uma lista de notas. Adicione um nome repetido ao `Set` e observe seu tamanho.

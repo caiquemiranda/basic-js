@@ -19,7 +19,7 @@ Um roteiro de estudo em português para aprender JavaScript moderno com exemplos
 | 01 | [Ambientes e primeiros passos](docs/01-primeiros-passos.md) | [Primeiros valores](examples/01-valores.js) |
 | 02 | [Tipos, conversão e operadores](docs/02-tipos-e-operadores.md) | [Tipos e operadores](examples/02-tipos.js) |
 | 03 | [Fluxo, funções e escopo](docs/03-fluxo-funcoes.md) | [Funções](examples/03-funcoes.js) |
-| 04 | [Arrays e coleções](docs/04-colecoes.md) | [Coleções](examples/04-colecoes.js) |
+| 04 | [Arrays e coleções](docs/04-colecoes.md) | [Coleções](examples/04-colecoes.js), [texto e datas](examples/08-texto-datas.js) |
 | 05 | [Objetos e classes](docs/05-objetos-classes.md) | [Objetos](examples/05-objetos.js) |
 | 06 | [Módulos, erros e assincronia](docs/06-modulos-assincronia.md) | [Assincronia](examples/06-assincronia.js) |
 | 07 | [DOM e eventos](docs/07-dom.md) | [Página interativa](index.html) |

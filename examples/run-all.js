@@ -6,6 +6,7 @@ const exemplos = [
   "05-objetos.js",
   "06-assincronia.js",
   "07-ia.js",
+  "08-texto-datas.js",
 ];
 
 for (const arquivo of exemplos) {

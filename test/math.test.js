@@ -22,3 +22,10 @@ test("normalização rejeita entrada inválida", () => {
   assert.throws(() => normalizarMinMax([]), TypeError);
   assert.throws(() => normalizarMinMax([1, NaN]), TypeError);
 });
+
+test("normalização lida com uma lista grande sem espalhar argumentos", () => {
+  const valores = Array.from({ length: 100_000 }, (_, indice) => indice);
+  const resultado = normalizarMinMax(valores);
+  assert.equal(resultado[0], 0);
+  assert.equal(resultado.at(-1), 1);
+});
