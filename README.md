@@ -27,6 +27,10 @@ Um roteiro de estudo em português para aprender JavaScript moderno com exemplos
 | 09 | [Exercícios e testes](docs/09-exercicios.md) | [Testes](test/) |
 | 10 | [Glossário e próximos passos](docs/10-glossario.md) | — |
 
+## Laboratórios temáticos
+
+A trilha prática ganhou [15 laboratórios](labs/README.md) em três grupos: fundamentos, pequenos projetos e IA didática. Cada tema tem um commit de implementação e outro de testes, totalizando **30 commits novos** para estudar por etapas. Rode `npm test` para verificar todos os casos.
+
 ## Como estudar
 
 Para cada capítulo: leia o conceito, execute o exemplo, preveja o resultado antes de vê-lo, mude uma entrada e explique o que mudou. Os exemplos são intencionalmente pequenos. Os testes mostram casos comuns e casos de borda; use-os como feedback, não como substituto da leitura.
