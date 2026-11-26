@@ -1,8 +1,55 @@
-<!DOCTYPE html>
-<html>
-<body>
-    <script>
-        console.log("usando JS")
-    </script>
-</body>
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Laboratório interativo de fundamentos de JavaScript">
+    <title>Laboratório JavaScript básico</title>
+    <link rel="stylesheet" href="./web/style.css">
+    <script type="module" src="./web/app.js"></script>
+  </head>
+  <body>
+    <main class="layout">
+      <header>
+        <p class="eyebrow">JavaScript básico · laboratório</p>
+        <h1>Aprenda experimentando</h1>
+        <p>Esta página usa os mesmos módulos dos exemplos de terminal. Abra o console do navegador e altere o código para observar o resultado.</p>
+        <a href="./README.md">Voltar ao roteiro de estudos</a>
+      </header>
+
+      <section class="card" aria-labelledby="notas-titulo">
+        <h2 id="notas-titulo">1. Condições e funções</h2>
+        <p>Digite uma nota entre 0 e 10 para ver a classificação.</p>
+        <form id="form-nota">
+          <label for="nota">Nota</label>
+          <input id="nota" name="nota" type="number" min="0" max="10" step="any" required value="7">
+          <button type="submit">Classificar</button>
+        </form>
+        <output id="resultado-nota" aria-live="polite">Envie uma nota para começar.</output>
+      </section>
+
+      <section class="card" aria-labelledby="lista-titulo">
+        <h2 id="lista-titulo">2. Arrays, eventos e DOM</h2>
+        <p>Adicione assuntos. A lista e a contagem são atualizadas sem recarregar a página.</p>
+        <form id="form-assunto">
+          <label for="assunto">Assunto</label>
+          <input id="assunto" name="assunto" type="text" maxlength="60" required placeholder="Ex.: funções">
+          <button type="submit">Adicionar</button>
+        </form>
+        <ul id="lista-assuntos"></ul>
+        <output id="total-assuntos" aria-live="polite">0 assuntos</output>
+      </section>
+
+      <section class="card" aria-labelledby="media-titulo">
+        <h2 id="media-titulo">3. Arrays e média</h2>
+        <p>Informe números separados por vírgula. Teste também uma entrada vazia ou inválida.</p>
+        <form id="form-media">
+          <label for="valores">Valores</label>
+          <input id="valores" name="valores" type="text" value="7, 8, 9" required>
+          <button type="submit">Calcular média</button>
+        </form>
+        <output id="resultado-media" aria-live="polite">Envie os valores para calcular.</output>
+      </section>
+    </main>
+  </body>
 </html>
