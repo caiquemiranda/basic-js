@@ -7,7 +7,7 @@ Um roteiro de estudo em português para aprender JavaScript moderno com exemplos
 1. Instale [Node.js](https://nodejs.org/) **22 ou superior** e confira com `node --version`.
 2. Clone o repositório e entre na pasta.
 3. Execute `npm test` para verificar os exercícios resolvidos e `npm start` para rodar todos os exemplos.
-4. Abra `index.html` em um navegador para experimentar eventos e DOM.
+4. Execute `npm run web` e abra `http://127.0.0.1:8000/` para experimentar eventos e DOM.
 5. Leia os capítulos na ordem abaixo e altere os exemplos. Rode os testes após cada alteração.
 
 > JavaScript é a linguagem; ECMAScript define seu núcleo. Node.js e o navegador são ambientes diferentes: `document` existe no navegador, enquanto APIs como `node:test` são do Node.js.
@@ -38,6 +38,7 @@ Para cada capítulo: leia o conceito, execute o exemplo, preveja o resultado ant
 | `node examples/02-tipos.js` | Executa um exemplo isolado |
 | `npm start` | Executa todos os exemplos de terminal |
 | `npm test` | Executa a suíte nativa de testes |
+| `npm run web` | Inicia o laboratório no navegador em `127.0.0.1:8000` |
 
 Os arquivos em `src/` contêm funções reutilizáveis; `examples/` demonstra o uso; `test/` verifica o comportamento. A interface de `index.html` usa os mesmos módulos de `src/` no navegador.
 

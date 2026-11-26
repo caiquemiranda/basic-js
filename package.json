@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "test": "node --test",
-    "start": "node examples/run-all.js"
+    "start": "node examples/run-all.js",
+    "web": "node web/server.js"
   },
   "engines": {
     "node": ">=22"

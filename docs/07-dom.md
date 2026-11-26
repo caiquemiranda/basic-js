@@ -1,6 +1,6 @@
 # 07 · DOM, eventos e formulários
 
-O **DOM** representa o documento HTML como uma árvore de nós. O JavaScript do navegador pode localizar elementos, ler entradas e alterar o conteúdo mostrado na página. Este capítulo usa a [página interativa](../index.html).
+O **DOM** representa o documento HTML como uma árvore de nós. O JavaScript do navegador pode localizar elementos, ler entradas e alterar o conteúdo mostrado na página. Este capítulo usa a [página interativa](../index.html). Inicie com `npm run web` e abra `http://127.0.0.1:8000/`; módulos ES precisam ser servidos por HTTP em navegadores comuns.
 
 ## Do HTML ao evento
 
@@ -31,7 +31,7 @@ Na lista de assuntos, o array `assuntos` guarda o estado. O DOM reflete as açõ
 
 ## Experimente
 
-1. Abra `index.html` e classifique notas 4, 6 e 9.
+1. Rode `npm run web`, abra a URL indicada e classifique notas 4, 6 e 9.
 2. Adicione e remova assuntos; veja a contagem mudar.
 3. Digite `7, 8, texto` no cálculo da média e observe a mensagem de erro.
 4. Abra o console e inspecione `document.querySelector("#lista-assuntos").children`.

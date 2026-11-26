@@ -50,6 +50,19 @@
         </form>
         <output id="resultado-media" aria-live="polite">Envie os valores para calcular.</output>
       </section>
+
+      <section class="card" aria-labelledby="ia-titulo">
+        <h2 id="ia-titulo">4. IA básica: k-NN</h2>
+        <p>Escolha duas características entre 0 e 1. O classificador didático procura os exemplos mais próximos.</p>
+        <form id="form-ia">
+          <label for="caracteristica-a">Característica A</label>
+          <input id="caracteristica-a" name="a" type="number" min="0" max="1" step="any" required value="0.15">
+          <label for="caracteristica-b">Característica B</label>
+          <input id="caracteristica-b" name="b" type="number" min="0" max="1" step="any" required value="0.25">
+          <button type="submit">Classificar</button>
+        </form>
+        <output id="resultado-ia" aria-live="polite">Envie os valores para classificar.</output>
+      </section>
     </main>
   </body>
 </html>
