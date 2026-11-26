@@ -1,0 +1,12 @@
+{
+  "name": "basic-js-study",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "start": "node examples/run-all.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
